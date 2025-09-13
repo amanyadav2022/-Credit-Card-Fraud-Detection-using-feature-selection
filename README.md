@@ -44,44 +44,48 @@ imbalanced-learn == 0.8.0
 ```bash
 pip install -r requirements.txt
 ```
-⚙️ Installation
+## ⚙️ Installation
 1. Clone the repository:
 ```bash
 git clone https://github.com/amanyadav2022/Credit-Card-Fraud-Detection-using-feature-selection.git
 cd Credit-Card-Fraud-Detection-using-feature-selection
 ```
-🚀 Usage
+## 🚀 Usage
 1. Open the Jupyter Notebook:
 ```bash
 jupyter notebook "Code Files.ipynb"
 ```
 2. Run each cell sequentially.
 3. The notebook includes:
-   -Data loading & preprocessing
-   -Feature selection & importance analysis
-   -Model training, evaluation & generalization testing
+   - Data loading & preprocessing
+   - Feature selection & importance analysis
+   - Model training, evaluation & generalization testing
    
-📊 Project Workflow
+## 📊 Project Workflow
 
-  1.Dataset Collection & Preprocessing
-      Data exploration, handling imbalance (SMOTE), encoding, scaling, outlier detection.
-  2.Feature Selection & Dimensionality Reduction
-      Linear Discriminant Analysis (LDA).
-  3.Model Implementation
-      Naive Bayes, KNN, Decision Tree, Random Forest, Logistic Regression, Bagging.
-  4.Evaluation & Results
-      Compared before/after applying SMOTE, LDA, and feature selecti
+1. **Dataset Collection & Preprocessing**  
+   Data exploration, handling imbalance (SMOTE), encoding, scaling, outlier detection.  
+
+2. **Feature Selection & Dimensionality Reduction**  
+   Linear Discriminant Analysis (LDA).  
+
+3. **Model Implementation**  
+   Naive Bayes, KNN, Decision Tree, Random Forest, Logistic Regression, Bagging.  
+
+4. **Evaluation & Results**  
+   Compared performance before and after applying SMOTE, LDA, and feature selection.  
+
       
-📈 Results
+## 📈 Results
 
-    | Model               | Precision | Recall | F1-Score | ROC-AUC |
-    | ------------------- | --------- | ------ | -------- | ------- |
-    | Random Forest       | 0.93      | 0.91   | 0.92     | 0.97    |
-    | KNN                 | 0.90      | 0.88   | 0.89     | 0.95    |
-    | Naive Bayes         | 0.85      | 0.80   | 0.82     | 0.90    |
-    | Logistic Regression | 0.88      | 0.84   | 0.86     | 0.92    |
+   | Model               | Precision | Recall | F1-Score | ROC-AUC |
+   | ------------------- | --------- | ------ | -------- | ------- |
+   | Random Forest       | 0.93      | 0.91   | 0.92     | 0.97    |
+   | KNN                 | 0.90      | 0.88   | 0.89     | 0.95    |
+   | Naive Bayes         | 0.85      | 0.80   | 0.82     | 0.90    |
+   | Logistic Regression | 0.88      | 0.84   | 0.86     | 0.92    |
 
-  -Random Forest and KNN with SMOTE & LDA showed the best fraud detection performance.
-  -Feature selection improved generalization and reduced overfitting.
-  -Visualizations of confusion matrices & ROC curves confirmed robustness.
+  - Random Forest and KNN with SMOTE & LDA showed the best fraud detection performance.
+  - Feature selection improved generalization and reduced overfitting.
+  - Visualizations of confusion matrices & ROC curves confirmed robustness.
    
